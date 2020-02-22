@@ -3,12 +3,18 @@ body{
 }
 h1{
     font-size: 50px;
+    font-family: 'Poppins', sans-serif;
 }
 .name-highlight{
     color: orange;
 }
 .half{
     width: 45%;
+    float: left;
+    margin-left: 60px;
+}
+.half-second{
+    width: 40%;
     float: left;
     margin-left: 60px;
 }
@@ -32,4 +38,14 @@ button{
 .second-one{
     overflow: hidden;
     padding-top: 250px;
+}
+.text-area{
+    margin-right: 20px;
+    padding: 20px ;
+}
+
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 50%;
 }
